@@ -55,10 +55,49 @@
         color: aquamarine;
         margin: 2rem;
     }
+    .table1{
+        padding: 3rem;
+        text-align: center;
+    }
+    .table1 th{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    .table1 td{
+        padding-top: 1rem;
+    }
+    .thead{
+        color: black;
+        background-color: aquamarine;
+        border-radius: 1rem;
+        padding: 10px 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .thead:hover{
+        background-color: aqua;
+    }
+    .titles{
+        color: aquamarine;
+        text-align: center;
+        font-size: 3rem;
+        margin: 2rem;
+    }
+    .achiev{
+        font-size: 2rem;
+        color: aquamarine;
+        font: bolder;
+        margin-left: 500px;
+    }
+    .achievtext{
+        font-size: 1.5rem;
+        margin-left: 500px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
     </style>
 </head>
 <body>
-    <div class="under">! Under Construction.</div>
+    <div class="under">! Under Development.</div>
     <div class="MainTitle"><h1>Aniket Dalvi</h1></div>
     <div class="mainPara">Welcome to My <span class="bold">Portfolio!</span> Here, you'll will find my latest skills and projects. <br>
     Designed for Recruiters, Entrepreneurs and other Developers...!
@@ -67,63 +106,31 @@
 
     <div class="aboutTitle"><b>About Me</b></div>
     <br>
-    <table>
+
+    <table class="table1">
         <tr>
-            <th style="padding: auto;"><span style="border-radius: 1rem; padding: 1rem; margin: 1rem;">Background</span></th>
-            <th><span style="border-radius: 1rem; padding: 1rem; margin: 1rem;">Passion</span></th>
-            <th><span style="border-radius: 1rem; padding: 1rem; margin: 1rem;">Values</span></th>
+            <th><span class="thead">Background</span></th>
+            <th><span class="thead">Passion</span></th>
+            <th><span class="thead">Values</span></th>
         </tr>
         <tr>
-            <td style="text-align: center; padding: 1rem;">Computer Science graduate <br>
-                with a focus on data <br>
-                structures and algorithms.<br>
-                Three years of experience working <br>
-                with multiple langauges and softwares.
-            </td>
-            <td style="text-align: center; padding: 1rem;">
-                my passion lies in harnessing <br>
-                the power of this versatile language <br>
-                to build robust and scalable applications <br>
-                that empower businesses and enhance user experiences.
-            </td>
-            <td style="text-align: center; padding: 1rem;">
-                <br>I'm dedicated, hardworking, <br>
-                and a clear communicator. <br>
-                I'm always learning and <br>
-                growing, and I'm committed <br>
-                to providing high-quality <br>
-                work under pressure.
-            </td>
+            <td>Computer Science graduate with a focus on Data Strucutes and Algorithms. Three years of experience working with multiple Langauges and Softwares.</td>
+            <td>My passion lies in harnessing the power of langauges and Data Strucutes to build robust and scalable solutions that empower businesses and enhance user experiences.</td>
+            <td>I'm dedicated, hardworking, and a clear communicator. I'm always learning and growing, and I'm committted to providing high-quality work under pressure.</td>
         </tr>
     </table>
     <br>
 
-    <h2>
-        Standing Strong With...
-    </h2>
-    <h3>
-        1500+
-    </h3>
-    <h4>
-        Questions solved across all platforms.
-    </h4>
-    <h3>
-        700+
-    </h3>
-    <h4>
-        Questions solved on Acciojobs platform.
-    </h4>
-    <h3>
-        170+
-    </h3>
-    <h4>
-        Questions solved on Leetcode.
-    </h4>
+    <div class="titles">Achievements</div>
+    <span class="achiev">1500+</span>
+    <div class="achievtext">Questions solved across all platforms.</div>
+    <span class="achiev">700+</span>
+    <div class="achievtext">Questions solved on Acciojobs platform.</div>
+    <span class="achiev">200+</span>
+    <div class="achievtext">Questions solved on LeetCode.</div>
     <br>
 
-    <h2>
-        Skills and Expertise.
-    </h2>
+    <div class="titles">Skills and Expertise.</div>
     <br>
 
     <table style="margin-left: 600px; margin-right: 400px;">
@@ -150,7 +157,7 @@
     </table>
     <br>
 
-    <h2>Highlighted Projects</h2>
+    <div class="titles">Highlighted Projects</div>
     <h3>
         Take Look At My Some Recent Projects!
     </h3>
@@ -174,7 +181,7 @@
     </table>
     <br>
     
-    <h2>Contact Me.</h2>
+    <div class="titles">Contact me</div>
     <h4 style="margin-left: 400px;">Thank you for taking the time to review my portfolio! Let's discuss opportunities to <br>
         collaborate on Java
         Backend applications. You can reach me by email or phone.
